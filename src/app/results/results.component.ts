@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 import { type AnnualData } from '../models/annual-data.model';
-import { JsonPipe } from '@angular/common';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-results',
-  imports: [JsonPipe],
+  imports: [CurrencyPipe],
   templateUrl: './results.component.html',
   styleUrl: './results.component.scss',
 })

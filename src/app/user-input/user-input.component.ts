@@ -10,8 +10,8 @@ import { type DataInput } from '../models/data-input.model';
 })
 export class UserInputComponent {
   @Output() CalculatedData = new EventEmitter<DataInput>();
-  initialInvestment: string = '0';
-  annualInvestment: string = '0';
+  initialInvestment: string = '5000';
+  annualInvestment: string = '1000';
   expectedReturn: string = '5';
   duration: string = '10';
   onSubmit(): void {
